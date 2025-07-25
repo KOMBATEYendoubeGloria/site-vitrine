@@ -300,3 +300,93 @@ footer{
     background-repeat: no-repeat;
     padding: 50px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  nav {
+    height: auto;
+  }
+
+  ul {
+    text-align: center;
+    padding: 0;
+  }
+
+  li {
+    float: none;
+    display: block;
+    font-size: 18px;
+  }
+
+  .content,
+  .content2,
+  .content3 {
+    padding: 60px 20px;
+    height: auto;
+  }
+
+  .propos, .image {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  #image2 {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+  }
+
+  .d {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .galerie,
+  #coiffure {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  .t2, .t3, .t4, .t5, .ts, .t10 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .t7, .t11, .p1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .social-icons img {
+    width: 50px;
+    height: 50px;
+  }
+
+  footer {
+    padding: 20px 10px;
+    height: auto;
+  }
+}
