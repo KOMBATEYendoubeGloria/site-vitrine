@@ -403,6 +403,7 @@ li a:hover {
 .contact-form textarea {
     height: 120px;
     resize: vertical;
+    font-family: sans-serif;
 }
 
 .contact-form button {
